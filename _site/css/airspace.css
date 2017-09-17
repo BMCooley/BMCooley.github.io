@@ -397,6 +397,11 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+.tech-stack-img {
+  height: 120px;
+  display: block;
+  margin: auto;
+}
 /*--
 	portfolio-work Start
 --*/
