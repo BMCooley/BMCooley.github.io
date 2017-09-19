@@ -1,13 +1,19 @@
 $(document).ready(function(){
 
 
+	// testimonial links
+	$('#jsjohn').on('click', () => window.open('https://javascriptjohn.com/'))
+	
+
+
+
 	$("#portfolio-contant-active").mixItUp();
 
 
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,      
 	    singleItem:true,
-	    autoPlay: 3000,
+	    autoPlay: 3500,
 	});
 
 
@@ -44,7 +50,6 @@ $(document).ready(function(){
         delay: 10,
         time: 1000
     });
-
 
 });
 

@@ -270,16 +270,16 @@ font header .navbar-default .navbar-nav li a:hover {
 	content Start
 --*/
 #testimonial {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 #testimonial .block h2 {
   line-height: 27px;
-  color: #5C5C5C;
+  color: #100B0B;
   padding-top: 110px;
 }
 #testimonial .block p {
   padding-top: 50px;
-  color: #7B7B7B;
+  color: #100A0A;
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -295,9 +295,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-weight: bold;
 }
 #testimonial .counter-box li span {
-  color: #555;
+  color: #0F0A0A;
 }
 #testimonial .testimonial-carousel {
+  background-color: rgba(255, 255, 255, 0.3);  
   text-align: center;
   width: 75%;
   border: 1px solid #DEDEDE;
@@ -309,7 +310,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel p {
   line-height: 28px;
-  font-weight: 300;
+  font-weight: 500;
   padding-bottom: 20px;
 }
 #testimonial .testimonial-carousel .user img {
@@ -320,11 +321,11 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 0;
   font-size: 12px;
   line-height: 20px;
-  color: #353241;
+  color: #0E0D12;
 }
 #testimonial .testimonial-carousel .user p span {
   display: block;
-  color: #353241;
+  color: #14131A;
   font-weight: 600;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
@@ -336,10 +337,15 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 10px;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
-  background: #5C5C5C;
+  background: #4E4D4D;
   font-size: 30px;
   display: inline-block;
   border: 0px;
+}
+#testimonial img {
+  max-height: 60px;
+  display: block;
+  margin: auto;
 }
 /*--
 	features Start
@@ -380,7 +386,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
