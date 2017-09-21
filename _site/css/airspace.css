@@ -140,6 +140,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro {
   padding: 100px 0;
 }
+.selfie{
+  border: solid 1px #8A8989;
+  padding: 0;
+}
 #intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
