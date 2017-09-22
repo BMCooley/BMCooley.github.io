@@ -32,5 +32,4 @@ markdown: kramdown
 descriptions:
   - cat: jekyll
     desc: "Personal Resume Site"
-
-theme: jekyll-theme-airspace
+    
