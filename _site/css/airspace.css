@@ -271,7 +271,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #404143;
   margin-bottom: 20px;
 }
-.box-back {
+.box-back { 
   background-color: rgba(250, 248, 248, 0.85);
   padding: 15px;
   border: 1px solid #DEDEDE;
