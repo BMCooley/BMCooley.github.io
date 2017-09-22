@@ -139,6 +139,12 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #intro {
   padding: 100px 0;
+  background: url("../img/rome.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 110px 0 160px 0;
+  position: relative;
 }
 .selfie{
   border: solid 1px #8A8989;
@@ -265,9 +271,9 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #404143;
   margin-bottom: 20px;
 }
-#feature .box-back {
+.box-back {
   background-color: rgba(250, 248, 248, 0.85);
-  padding-bottom: 10px;
+  padding: 15px;
   border: 1px solid #DEDEDE;
 }
 .btn-purple {
@@ -429,11 +435,11 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-menu ul {
   border: 1px solid #999999;
-  display: inline-block;
+  display: block;
   margin-bottom: 40px;
 }
 #portfolio-work .block .portfolio-menu ul li {
-  display: inline-block;
+  display: block;
   padding: 0px 25px;
   cursor: pointer;
   font-size: 15px;
@@ -487,9 +493,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
-  width: 32.22%;
+  width: 100%;
   overflow: hidden;
-  margin: 6px;
+  margin: 5%;
   position: relative;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
@@ -551,6 +557,9 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .mix {
   display: none;
+}
+#portfolio-work .descript {
+  color: black;
 }
 /*--
 	wrapper-work Start

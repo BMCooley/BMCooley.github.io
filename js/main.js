@@ -1,6 +1,23 @@
 $(document).ready(function(){
 
+console.log('main.js run')
 
+	var postArea = $(".post-area")
+	if (postArea.length) {
+		var userName = 'dan_abramov';
+		var options = {
+			method: 'GET',
+			url: 'https://medium.com/@' + userName + '/latest',
+			headers: {
+				accept: 'application/json'
+			}
+		};
+		fetch(options).then((error, response, body) => {
+			if (error) throw new Error(error);
+			body = JSON.parse(body);
+			returnObj = body.payload.references.Post;
+		});
+	}
 	$("#portfolio-contant-active").mixItUp();
 
 
